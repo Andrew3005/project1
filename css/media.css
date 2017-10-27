@@ -1,0 +1,493 @@
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+    .footer{
+      text-align:right;
+    }
+    
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+    .hor_line{
+      display: none;
+    }
+
+    header{
+    	position:fixed;
+    	width:100%;
+    	z-index:300;
+    }
+
+    .download{
+    	margin-top:130px;
+    }
+
+    .footer{
+      text-align:right;
+    }
+
+    .work_block1 p{
+    font-size:14px;
+    position:relative;
+    text-align:right;
+    color:rgb(158,154,154);
+  }
+
+  .work_block1{
+    height:auto;
+  }
+
+     p.date{
+  font-size:18px;
+  color:rgb(212,212,212);
+  position:absolute;
+  top:190px;
+  left:30px;
+  text-align:left;
+    }
+    
+    #top_menu{        
+        z-index:999;
+        position:relative;
+        width:100%;
+        top:60px;
+        background:rgb(204,204,204);
+        font-size:15px;
+        font-weight:700;
+    }
+
+   .work_block{
+       float:none;
+       width:100%;
+    }
+
+    .work_block p{
+      padding-bottom:0px;
+    }
+
+    .work_block:hover{
+        background:white;
+        color:rgb(255,150,0);
+        border-radius:30px;
+}
+
+    .work_block:hover .under_line{
+    display:none;
+}
+
+span.twitter{
+  border-radius:1px;
+  position: absolute;
+  top: 30px;
+  left: 50px;
+  color: white;
+  background-color: black;
+  font-size: 12px;
+    display: none;
+  width: 90px;
+  text-align: center;
+}
+
+span.facebook{  
+  border-radius:1px;
+  position: absolute;
+  top: 30px;
+  left: 85px;
+  color: white;
+  background-color: black;
+  font-size: 12px;
+    display: none;
+  width: 110px;
+  text-align: center;
+}
+
+span.pinterest{
+  border-radius:1px;
+  position: absolute;
+  top: 30px;
+  left: 90px;
+  color: white;
+  background-color: black;
+  font-size: 12px;
+    display: none;
+    width: 110px;
+  text-align: center;
+}
+
+span.tumblr{
+  border-radius:1px;
+  position: absolute;
+  top: 30px;
+  left: 112px;
+  color: white;
+  background-color: black;
+  font-size: 12px;
+    display: none;
+    width: 90px;
+  text-align: center;
+}
+
+span.facebook:after{
+	position:absolute;
+	display:block;
+	width:0;
+	top:-15px;
+	left:44px;
+	border: 9px solid transparent; 
+	border-bottom: 9px solid black; 
+	content:"";
+}
+
+span.twitter:after{
+	position:absolute;
+	display:block;
+	width:0;
+	top:-15px;
+	left:57px;
+	border: 9px solid transparent; 
+	border-bottom: 9px solid black; 
+	content:"";
+}
+
+span.pinterest:after{
+	position:absolute;
+	display:block;
+	width:0;
+	top:-15px;
+	left:60px;
+	border: 9px solid transparent; 
+	border-bottom: 9px solid black; 
+	content:"";
+}
+
+span.tumblr:after{
+	position:absolute;
+	display:block;
+	width:0;
+	top:-15px;
+	left:60px;
+	border: 9px solid transparent; 
+	border-bottom: 9px solid black; 
+	content:"";
+}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+   .hor_line{
+      display: none;
+    }
+    
+     .footer{
+       
+       font-size:14px;
+      text-align:right;
+    }
+
+    .work_block1{
+    height:auto;
+    }
+    
+    #top_menu{                
+        z-index:999;
+        position:relative;
+        width:100%;
+        top:60px;
+        background:rgb(204,204,204);
+        font-size:15px;
+        font-weight:700;
+    }
+
+   .work_block{
+       float:none;
+       width:100%;
+    }
+
+    .work_block1 p{
+      font-size:11px;
+    position:relative;
+    text-align:right;
+    color:rgb(158,154,154);
+  }
+
+  .logo{
+    width:100px;
+  }
+
+    .work_block:hover{
+        background:white;
+        color:rgb(255,150,0);
+        border-radius:30px;
+    }
+
+    .work_block:hover .under_line{
+    display:none;
+    }
+
+    .f1{
+	padding-top:2px;
+}
+
+p i[class$="fa-star"]{
+	padding-top:2px;
+	padding-right:2px;
+}
+
+    p.date{
+  font-size:18px;
+  color:rgb(212,212,212);
+  position:absolute;
+  top:140px;
+  left:30px;
+  text-align:left;
+    }
+
+    span.twitter{
+  border-radius:1px;
+  position: absolute;
+  top: 30px;
+  left: 0px;
+  color: white;
+  background-color: black;
+  font-size: 12px;
+    display: none;
+  width: 90px;
+  text-align: center;
+}
+
+span.facebook{  
+  border-radius:1px;
+  position: absolute;
+  top: 30px;
+  left: 45px;
+  color: white;
+  background-color: black;
+  font-size: 12px;
+    display: none;
+  width: 110px;
+  text-align: center;
+}
+
+span.pinterest{
+  border-radius:1px;
+  position: absolute;
+  top: 30px;
+  left: 45px;
+  color: white;
+  background-color: black;
+  font-size: 12px;
+    display: none;
+    width: 110px;
+  text-align: center;
+}
+
+span.tumblr{
+  border-radius:1px;
+  position: absolute;
+  top: 30px;
+  left: 58px;
+  color: white;
+  background-color: black;
+  font-size: 12px;
+    display: none;
+    width: 90px;
+  text-align: center;
+}
+
+span.facebook:after{
+	position:absolute;
+	display:block;
+	width:0;
+	top:-15px;
+	left:37px;
+	border: 9px solid transparent; 
+	border-bottom: 9px solid black; 
+	content:"";
+}
+
+span.twitter:after{
+	position:absolute;
+	display:block;
+	width:0;
+	top:-15px;
+	left:;
+	border: 9px solid transparent; 
+	border-bottom: 9px solid black; 
+	content:"";
+}
+
+span.pinterest:after{
+	position:absolute;
+	display:block;
+	width:0;
+	top:-15px;
+	left:60px;
+	border: 9px solid transparent; 
+	border-bottom: 9px solid black; 
+	content:"";
+}
+
+span.tumblr:after{
+	position:absolute;
+	display:block;
+	width:0;
+	top:-15px;
+	left:71px;
+	border: 8px solid transparent; 
+	border-bottom: 8px solid black; 
+	content:"";
+}
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+   .hor_line{
+      display: none;
+    }
+
+     .footer{
+       font-size:14px;
+      text-align:right;
+    }
+
+    .work_block1{
+    height:auto;
+    }
+    
+    #top_menu{        
+        z-index:999;
+        position:relative;
+        width:100%;
+        top:60px;
+        background:rgb(204,204,204);
+        font-size:15px;
+        font-weight:700;
+    }
+
+   .work_block{
+       float:none;
+       width:100%;
+    }
+
+    .work_block:hover{
+        background:white;
+        color:rgb(255,150,0);
+        border-radius:30px;
+    }
+
+    .work_block:hover .under_line{
+    display:none;
+    }
+
+     p.date{
+  font-size:18px;
+  color:rgb(212,212,212);
+  position:absolute;
+  top:140px;
+  left:30px;
+  text-align:left;
+    }
+
+    span.twitter{
+  border-radius:1px;
+  position: absolute;
+  top: 30px;
+  left: 10px;
+  color: white;
+  background-color: black;
+  font-size: 12px;
+    display: none;
+  width: 90px;
+  text-align: center;
+}
+
+span.facebook{  
+  border-radius:1px;
+  position: absolute;
+  top: 30px;
+  left: 55px;
+  color: white;
+  background-color: black;
+  font-size: 12px;
+    display: none;
+  width: 110px;
+  text-align: center;
+}
+
+span.pinterest{
+  border-radius:1px;
+  position: absolute;
+  top: 30px;
+  left: 60px;
+  color: white;
+  background-color: black;
+  font-size: 12px;
+    display: none;
+    width: 110px;
+  text-align: center;
+}
+
+span.tumblr{
+  border-radius:1px;
+  position: absolute;
+  top: 30px;
+  left: 70px;
+  color: white;
+  background-color: black;
+  font-size: 12px;
+    display: none;
+    width: 90px;
+  text-align: center;
+}
+
+span.facebook:after{
+	position:absolute;
+	display:block;
+	width:0;
+	top:-15px;
+	left:46px;
+	border: 9px solid transparent; 
+	border-bottom: 9px solid black; 
+	content:"";
+}
+
+span.twitter:after{
+	position:absolute;
+	display:block;
+	width:0;
+	top:-15px;
+	left:5px;
+	border: 9px solid transparent; 
+	border-bottom: 9px solid black; 
+	content:"";
+}
+
+span.pinterest:after{
+	position:absolute;
+	display:block;
+	width:0;
+	top:-15px;
+	left:64px;
+	border: 9px solid transparent; 
+	border-bottom: 9px solid black; 
+	content:"";
+}
+
+span.tumblr:after{
+	position:absolute;
+	display:block;
+	width:0;
+	top:-15px;
+	left:65px;
+	border: 9px solid transparent; 
+	border-bottom: 9px solid black; 
+	content:"";
+}
+
+}
